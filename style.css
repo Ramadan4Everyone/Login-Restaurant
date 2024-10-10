@@ -1,0 +1,279 @@
+body{
+    background-size: cover;
+    background-image: url(pppo.jpg);
+}
+.mmn{
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-top: -20px;
+}
+.food{
+    width: 70px;
+    height: 50px;
+}
+select{
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: medium;
+    justify-content: space-between;
+    margin: 5px;
+}
+.ram{
+    font-family: "Merienda", cursive;
+    font-size: larger;
+    color: red;
+}
+.side{
+    background-color: brown;
+    width: 400px;
+    height: 550px;
+    margin-top: 50px;
+    border: 1px solid red;
+}
+.write{
+    color: red;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 30px;
+}
+.wel{
+    font-size: 35px;
+}
+.ramad{
+    top: 0;
+}
+.connect{
+    float: right;
+    margin-top: 150px;
+    color: green;
+    font-size: 25px;
+}
+.chef{
+    width: 200px;
+    height: 200px;
+    margin-top: -550px;
+    animation: chef 2s  linear infinite;
+}
+@keyframes chef{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.videos{
+    width: 400px;
+    height: 300px;
+}
+.search{
+    width: 500px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid red;
+    margin-top: 150px;
+    color: green;
+    font-size: 20px;
+}
+.register{
+    margin-left: 50px;
+}
+h2{
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.abdullah{
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+}
+.see{
+    height: 60px;
+    border-radius: 5px;
+    background-color: gold;
+    margin-top: 20px;
+}
+.see:hover{
+    background-color: red;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+    margin-top: 300px;
+}
+h3{
+    color: white;
+    margin-top: 30px;
+}
+footer{
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 400px;
+}
+h1{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(129, 128, 126);
+}
+footer ul li{
+    list-style: none;
+}
+.log:hover{
+    background-color: white;
+    border-radius: 100px;
+    transform: 5s;
+}
+.log{
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    border: none;
+}
+.welcome-media{
+    display: none;
+}
+
+@keyframes welcome{
+    0%{
+        color: red;
+    }
+    20%{
+        color: white;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: green;
+    }
+    80%{
+        color: yellow;
+    }
+    100%{
+        color: firebrick;
+    }
+}
+@media (max-width: 500px ) {
+    body{
+        background-color: pink;
+    }
+    .mmn{
+        float: right;
+        margin-right: 30px;
+        margin-top: 10px;
+        margin-top: -20px;
+    }
+    .food{
+        display: none;
+    }
+    .ram{
+        font-family: "Merienda", cursive;
+        font-size: 30px;
+        color: red;
+        /* margin-left: 150px; */
+    }
+    select{
+        display: none;
+    }
+    .log{
+        display: none;
+    }
+    .write{
+        color: red;
+        margin-top: 20px;
+        font-size: 10px;
+        display: none;
+
+    }
+    .wel{
+        font-size: 25px;
+        animation: 2s welcome linear infinite;
+    }
+    .ramad{
+        top: 0;
+    }
+    .connect{
+        float: right;
+        margin-top: 150px;
+        color: green;
+        font-size: 25px;
+        display: none;
+    }
+    .chef{
+        width: 200px;
+        height: 200px;
+        margin-top: -550px;
+        animation: chef 2s  linear infinite;
+        display: none;
+    }
+    .videos{
+        width: 250px;
+        height: 200px;
+        margin-left: 100px;
+    }
+    .welcome-media{
+        display: block;
+        color: red;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .search{
+        width: 370px;
+        height: 40px;
+        background-color: transparent;
+        border-radius: 20px;
+        border: 1px solid red;
+        margin-top: 70px;
+        color: green;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+        .loginn:hover{
+            background-color: black;
+            border-radius: 100px;
+            transform: 5s;
+            display: block;
+        }
+        .loginn{
+            border-radius: 50px;
+            width: 200px;
+            height: 50px;
+            background-color: red;
+            border: none;
+            display: block;
+            margin-top: 30px;
+            margin-left: 150px;
+            color: white;
+        }
+        footer{
+            height: 300px;
+            width: 200px;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 400px;
+            display: none;
+        }
+        h1{
+            display: inline-block;
+            font-size: 20px;
+            color: rgb(129, 128, 126);
+            display: none;
+
+        }
+        footer ul li{
+            list-style: none;
+            display: none;
+        }
+    }

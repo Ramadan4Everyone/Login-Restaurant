@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(sky.jpeg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    display: flex;
+}
+.first{
+    width: 400px;
+    height: 550px;
+    margin-top: 50px;
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    display: flex;
+    border: 3px solid red;
+    animation-name: first-second;
+    animation-duration: 5s;
+    background-color: pink;
+}
+.second{
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    margin-left: 400px;
+    display: flex;
+    margin-top: 50px;
+    border: 3px solid orangered;
+    animation-name: first-second;
+    animation-duration: 5s;
+    background-color: lightseagreen;
+}
+@keyframes first-second{
+    from{
+        height: 0;
+    }
+    to{
+        height: 550px;
+    }
+}
+.joke{
+    color: greenyellow;
+}
+.ppp{
+    color: orangered;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+:hover.signn{
+    background-color: red;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+.signn{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    border: 2px solid red;
+    margin-top: 300px;
+    margin-left: -170px;
+}
+.login{
+    color: red;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 40px;
+    display: flex;
+}
+.Email{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 15px;
+    border: 2px solid red;
+}
+.pass{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    border: 2px solid red;
+}
+:hover.button{
+    background-color: white;
+    border-radius: 80%;
+    transform: 10s;
+    cursor: pointer;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+@media(max-width: 500px){
+    body{
+        background-image: blue;
+    }
+    .first{
+        width: 350px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        border: 3px solid red;
+        animation-name: first-second;
+        animation-duration: 5s;
+        background-color: pink;
+    }
+    @keyframes first-second{
+        from{
+            height: 0;
+        }
+        to{
+            height: 350px;
+        }
+    }
+    .Email{
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 25px;
+        margin-left: 35px;
+        font-size: 15px;
+        border: 2px solid red;
+    }
+    .pass{
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 25px;
+        margin-left: 35px;
+        font-size: 15px;
+        border: 2px solid red;
+    }
+
+}
